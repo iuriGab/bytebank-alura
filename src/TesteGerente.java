@@ -12,10 +12,14 @@ public class TesteGerente {
 
         System.out.println(anamim.getNome());
         System.out.println(anamim.getCpf());
-        System.out.println(anamim.getSalario());
 
-        boolean autenticador = anamim.autentica(sc.nextInt());
+        System.out.println("Seu salário é de: " + anamim.getSalario());
 
-        System.out.println(autenticador);
+        anamim.setSenha(2222);
+        boolean autenticador = anamim.autentica(2222);
+
+        System.out.println("Autenticou: " + autenticador);
+
+        System.out.print("A bonificação é de: " + anamim.getBonificacao());
     }
 }

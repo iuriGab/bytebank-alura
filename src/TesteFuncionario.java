@@ -8,6 +8,8 @@ public class TesteFuncionario {
         iuri.setSalario(5500.00);
 
         System.out.println(iuri.getNome());
-        System.out.println(iuri.getBonificacao());
+
+        System.out.println("Seu salário é: " + iuri.getSalario());
+        System.out.println("A bonificação é de: " + iuri.getBonificacao());
     }
 }
