@@ -10,7 +10,7 @@ public class TesteReferencias {
         f.setSalario(2000.0);
 
         EditorVideo ev = new EditorVideo();
-        ev.setSalario(3000.0);
+        ev.setSalario(2500.0);
 
         ControleBonificacao controle = new ControleBonificacao();
         controle.registra(g1);
