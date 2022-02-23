@@ -2,7 +2,7 @@ public class TesteFuncionario {
 
     public static void main(String[] args) {
 
-        Funcionario iuri = new Funcionario();
+        Funcionario iuri = new Gerente();
         iuri.setNome("Iuri Gabriel");
         iuri.setCpf("053.129.893-04");
         iuri.setSalario(5500.00);
