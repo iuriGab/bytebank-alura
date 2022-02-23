@@ -6,3 +6,4 @@ public class Designer extends Funcionario {
         return 200;
     }
 }
+
